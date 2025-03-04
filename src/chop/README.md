@@ -1,6 +1,7 @@
 # Machop: the software stack for MASE
-
-![alt text](../docs/imgs/machop.png)
+<div align="center" style="width=200px;">
+  <img src="../../docs/imgs/machop.png" width="200">
+</div>
 
 [Machop](https://bulbapedia.bulbagarden.net/wiki/Machop_(Pok%C3%A9mon)) is a humanoid, bipedal Pokémon that has blue-gray skin. It has three brown ridges on top of its head, large red eyes, and a relatively flat face. On either side of its chest are three, thin, rib-like stripes. Its feet appear to have no toes, while its hands have five fingers. Machop also has a short, stubby tail.
 
@@ -49,7 +50,7 @@ The full list of dependencies is contained in the [Conda environment](./environm
 
 TBF -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#machop-the-software-stack-for-mase">back to top</a>)</p>
 
 ## Basic Usage
 
@@ -121,7 +122,7 @@ Once you're happy with the quantized model performance, you can run the emit ver
 tensorboard --logdir your-log-directory
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#machop-the-software-stack-for-mase">back to top</a>)</p>
 
 ### Checkpointing
 
@@ -155,14 +156,14 @@ The figure below outlines how Machop determines when and where to load.
 - Transformed models will be saved to `pkl` files (pickle checkpoints).
 - Trained models will be saved to `pl` files (PyTorch Lightning `.ckpt` checkpoints).
 
-<p align="right">(<a href="#checkpointing">back to top</a>)</p>
+<p align="right">(<a href="#machop-the-software-stack-for-mase">back to top</a>)</p>
 
 <!-- CODING STYLE -->
 ## Coding style
 
 - For Python: see [standard](https://github.com/DeepWok/mase/blob/main/docs/Python-coding-style-specifications.md).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#machop-the-software-stack-for-mase">back to top</a>)</p>
 
 <!-- TESTED FLOW -->
 <!-- ## Tested flow
@@ -302,7 +303,7 @@ The figure below outlines how Machop determines when and where to load.
 
 See the [open issues](https://github.com/JianyiCheng/mase-tools/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#machop-the-software-stack-for-mase">back to top</a>)</p>
 
 ## Models and Datasets
 
@@ -343,5 +344,4 @@ The following dataset categories are supported. See [here](../docs/roadmap/suppo
 |   NLP Datasets  |    Translation    |  wmt19      |
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#machop-the-software-stack-for-mase">back to top</a>)</p>
